@@ -2,7 +2,7 @@
 
 [image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
 
-# Project 1: Navigation
+# Project 2: Continuous Control
 
 ### Introduction
 
@@ -11,7 +11,7 @@ In this project, we train a double-jointed arm agent to track a target location.
 ![Trained Agent][image1]
 
 A reward of +0.1 is provided for each step that the agents hand is in the target location. As such, the goal of the agent 
-is tp maintain its position (the hand) at the target location for as many steps as possible.   
+is to maintain its position (the hand) at the target location for as many steps as possible.   
 
 The state space has 33 dimensions and contains the position, rotation, velocity, and angular velocities of the arm. 
 Each action is a vector with 4 numbers, corresponding to the torque that should be applied to each of the two joints. 
